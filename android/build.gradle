@@ -4,7 +4,9 @@ buildscript {
 
   repositories {
     google()
-    jcenter()
+    mavenLocal()
+    mavenCentral()
+    gradlePluginPortal()
   }
 
   dependencies {
@@ -55,9 +57,10 @@ android {
 }
 
 repositories {
-  mavenCentral()
-  jcenter()
   google()
+  mavenLocal()
+  mavenCentral()
+  gradlePluginPortal()
 
   def found = false
   def defaultDir = null
