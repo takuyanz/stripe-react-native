@@ -8,7 +8,6 @@ import type {
   InitStripeParams,
   InitialiseParams,
 } from '../types';
-import pjson from '../../package.json';
 
 const EXPO_PARTNER_ID = 'pp_partner_JBN7LkABco2yUu';
 
@@ -23,6 +22,12 @@ export interface Props {
   children: React.ReactElement | React.ReactElement[];
   urlScheme?: string;
   setUrlSchemeOnAndroid?: boolean;
+}
+
+const pjson: any = {
+  name: '@takuyanz/stripe-react-native',
+  repository: 'https://github.com/takuyanz/stripe-react-native',
+  version: '0.2.3'
 }
 
 const repository: any = pjson.repository;

@@ -1,5 +1,5 @@
 {
-  "name": "@stripe/stripe-react-native",
+  "name": "@takuyanz/stripe-react-native",
   "version": "0.2.3",
   "author": "Stripe",
   "description": "Stripe SDK for React Native",
@@ -38,7 +38,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/stripe/stripe-react-native",
+  "repository": "https://github.com/takuyanz/stripe-react-native",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stripe/stripe-react-native/issues"
